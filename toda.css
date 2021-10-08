@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url(Senobi-Gothic-Regular.ttf);
+}
+
+body {
+	font-family: MyFont;
+	margin:0px;
+	background-color:#FFDF51;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color:#946c45;
+  color:#fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list a {
+  float: left;
+  padding: 33px 20px;
+	color:#fff;
+	text-decoration: none;
+}
+
+.article h1{
+	font-size:130px;
+}
+
+.article h2{
+	font-size:80px
+}
+
+.article p {
+	font-size:50px;
+}
+
+.footer {
+	background-color:#946c45;
+  color:#fff;
+  height: 170px;
+}
+
+.footer a{
+	 padding: 33px 20px;
+	color:#fff;
+	text-decoration: none;
+}
+	
+textarea {
+	background:#fff;
+}
+
+.contact-submit {
+	background:#fffacd
+}
