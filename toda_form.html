@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="toda.css">
 	<title>我らの戸田</title>
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<script src="https://sdk.form.run/js/v2/formrun.js"></script>
 </head>
 <body>	
 	<div class="header">
@@ -16,6 +17,7 @@
       </div>
     </div>
      <div class="contact-form">
+	     		<form class="formrun" action="https://form.run/api/v1/r/s259aao0eygx5trn82ek3dgn" method="post">
 			<h3 class="section-title">お問い合わせ</h3>
 			<p>メールアドレス（必須）</p>
 			<input>
@@ -24,8 +26,16 @@
 			<p>お問い合わせ内容（必須）</p>
 			<textarea></textarea>
 			<p>※必須項目は必ずご入力ください</p>
-			<input class = "contact-submit" type="submit" calue="送信">
-	 	    <input type="hidden" name="accessKey" value="bc352962-3589-43b3-8fe3-d4e55a6374c7">
+	     		<button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+	      <div class="_formrun_gotcha">
+    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+  </div>
+
+  <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+</form>
+
       </div>
 	<center>
 	<div class="footer">
