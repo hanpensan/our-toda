@@ -20,11 +20,13 @@
 	     		<form class="formrun" action="https://form.run/api/v1/r/s259aao0eygx5trn82ek3dgn" method="post">
 			<h3 class="section-title">お問い合わせ</h3>
 			<p>メールアドレス（必須）</p>
-			<input>
-	  		<p>名前（必須）</p>
-			<input>
+			<input　name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+			<div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+	  		<p>お名前（必須）</p>
+			<input name="お名前"　type="text">
 			<p>お問い合わせ内容（必須）</p>
-			<textarea></textarea>
+			<textarea name="お問い合わせ" data-formrun-required>></textarea>
+			<div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
 			<p>※必須項目は必ずご入力ください</p>
 	     		<button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
 	      <div class="_formrun_gotcha">
