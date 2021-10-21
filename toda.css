@@ -66,14 +66,14 @@ textarea {
 
 .post-thumbnail {
 	background:#fff;
+	padding: 40px 50px
 }
 
 .stepnum {
 	bacoground:#81c1fc;
 	color:#fff;
-	padding: 40px 50px
 }
 
-.date updatede {
+.post-meta list-inline {
 	color:#8c8e91;
 }
