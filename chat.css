@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url(Senobi-Gothic-Regular.ttf);
+}
+
+body {
+	font-family: MyFont;
+	margin:0px;
+	background-color:#FFDF51;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color:#946c45;
+  color:#fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list a {
+  float: left;
+  padding: 33px 20px;
+	color:#fff;
+	text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  padding: 12px;
+  background-color: #FFDF51;
+}
+
+.form button {
+  background-color: #4B82B3;
+}
+
+.log {
+}
+
+.log p {
+  display: flex;
+  margin: 0;
+  padding: 3px 20px;
+  line-height: 21px;
+  border-bottom: 1px solid #D9F0FF;
+}
+
+.log p .name {
+  display: block;
+  min-width: 10rem;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.log p .message {
+  display: block;
+  word-break: break-all;
+}
+
+.log p.self {
+  background-color: #ecf7ff;
+}
+
+.log p.self .name {
+  color: #4056F4;
+}
+
+#name {
+  width: 100px;
+}
+
+#message {
+  width: 400px;
+}
+
+.footer {
+	background-color:#946c45;
+  color:#fff;
+  height: 170px;
+}
+
+.footer a{
+	 padding: 33px 20px;
+	color:#fff;
+	text-decoration: none;
+}
+	
